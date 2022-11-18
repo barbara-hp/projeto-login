@@ -6,19 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-
+        
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as  no seu ambiente.</p>
                 <form action="login.php" method="post" autocomplete="on">
+                    <label for="iuser">Usuário</label><br>
+                    <input type="text" name="user" id="iuser" required><br>
 
+                    <label for="ipass">Senha</label><br>
+                    <input type="password" name="pass" id="ipass" placeholder="Insira sua senha" required >
+
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
                 </form>
+                
             </div>
         </section>
     </main>
