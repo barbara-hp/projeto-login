@@ -62,13 +62,30 @@ form > div.campo {
     background-color: #cc6729;
     height: 40px;
     display: block;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
-    padding: 3px;
+    
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    font-size: 2.5em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    
+    font-size: 1em;
+    width: 75%;
+    height: 50%;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    transform: translateY(-10px);
 }
 
 div#formulario {
@@ -82,15 +99,15 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #000670;
-    color: white;
-    border: none;
+    color: black;
+    border: 1px solid  #cc6729;
     border-radius: 5px;
     cursor: pointer;
 }
 
 form > input[type=submit]:hover {
-    background-color:  #040caa;
+    background-color:   #cc6729;
+    color: white;
 }
 
 form > a.botao {
@@ -101,15 +118,15 @@ form > a.botao {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #000670b4;
-    color: white;
+    color: black;
     text-decoration: none;
     border-radius: 5px;
-    border: 1px solid #010446a4;
+    border: 1px solid  #cc6729;
 }
 
 form > a.botao:hover {
-    background-color: #010896a4;
+    background-color:  #cc6729;
+    color: white;
 }
 
 form > a.botao > span {
